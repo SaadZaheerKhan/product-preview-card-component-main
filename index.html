@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/3ef753faec.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Saad Zaheer Khan || Frontend Developer</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__picture">
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="images/image-product-desktop.jpg"
+          />
+          <source
+            media="(min-width: 365px)"
+            srcset="images/image-product-mobile.jpg"
+          />
+          <img
+            class="card__image"
+            src="images/image-product-mobile.jpg"
+            alt=""
+          />
+        </picture>
+      </div>
+      <div class="card__content">
+        <p class="content content-spacing">Perfume</p>
+        <h1 class="content__heading">Gabrielle Essence Eau De Parfum</h1>
+        <p class="content">
+          A floral, solar and voluptous interception composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="product__price">
+          <h1 class="content__heading heading-green">$149.99</h1>
+          <p class="content"><del>$169.99</del></p>
+        </div>
+        <button class="btn content-cream">
+          <i class="fa-solid fa-cart-shopping"></i
+          ><a class="content-cream" href="#">Add to Cart</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
